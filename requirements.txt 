@@ -1,0 +1,75 @@
+BeautifulSoup==3.2.0
+Fabric==1.2.0
+Jinja2==2.5.5
+PyYAML==3.09
+Pygments==1.4
+SQLAlchemy==0.7.1
+South==0.7.3
+amqplib==0.6.1
+anyjson==0.3
+
+# Core Django
+Django>=4.2,<5.0
+
+# Database support (SQLite works out of the box; PostgreSQL needs psycopg2)
+psycopg2-binary>=2.9
+
+# Environment variable management
+python-decouple>=3.8
+
+# For better static files handling in development (optional)
+whitenoise>=6.0
+
+# Gunicorn (for testing production server)
+gunicorn>=21.2
+
+# Optional: Use dj-database-url to simplify database URL handling
+dj-database-url>=1.0
+
+# Optional: For CORS if you are building an API
+django-cors-headers>=4.0
+
+# Optional: Django extensions (for shell_plus, graph_models, etc.)
+django-extensions>=3.2
+
+
+
+# Django REST Framework
+djangorestframework>=3.14
+
+# Celery (for async tasks)
+celery>=5.3
+redis>=5.0  # Celery backend/broker (Redis recommended)
+
+# Stripe Payments
+stripe>=8.0
+
+# Email support (via environment config)
+python-decouple>=3.8
+
+# PostgreSQL support (optional, for production)
+psycopg2-binary>=2.9
+
+# Static files support (for local dev or production)
+whitenoise>=6.0
+
+# Gunicorn (for production server testing)
+gunicorn>=21.2
+
+# Optional: Manage DB with a single env var
+dj-database-url>=1.0
+
+# Optional: CORS headers for API access
+django-cors-headers>=4.0
+
+# Django Extensions (e.g., shell_plus, model graphing)
+django-extensions>=3.2
+
+# Tailwind CSS support via django-tailwind
+django-tailwind>=3.5
+
+# For integrating React or other frontends (optional tools)
+django-webpack-loader>=1.8
+
+# If you're using JWT for auth
+djangorestframework-simplejwt>=5.3
