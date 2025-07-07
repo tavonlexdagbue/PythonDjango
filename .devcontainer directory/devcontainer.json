@@ -11,6 +11,7 @@
     "remoteEnv": {
     "PYTHONUNBUFFERED": "1"
   },
+"forwardPorts": [8000],
 
   "postCreateCommand": "pip install -r requirements.txt"
 
